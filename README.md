@@ -2,9 +2,12 @@
 PHP class to fetch weather warnings and their details for EU member states from meteogate.eu API
 
 ## Pre-requisities
-Get a developer API key at https://devportal.meteogate.eu/
+- Get a developer API key at https://devportal.meteogate.eu/
 
 ## Usage
+- Update ```weatherWarnings.class.php``` line ```5``` with your API key
+- Use this example code:
+
 ```php
 <?
 include("weatherWarnings.class.php");
